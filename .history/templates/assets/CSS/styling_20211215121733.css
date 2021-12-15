@@ -312,8 +312,10 @@ nav .navbar .links li:hover .js-sub-menu {
     }
 
     .navbar .links li .sub-menu .more span {
+        /* background: red; */
         display: flex;
         align-items: center;
+        /* justify-content: space-between; */
     }
 
     .links li .sub-menu .more:hover .more-sub-menu {
@@ -356,20 +358,15 @@ nav .navbar .links li:hover .js-sub-menu {
 h1{
     font-family: "Poppins", sans-serif;
     font-size: 2.5rem;
-    color: black;
 }
 
 h2{
     font-family: "Poppins", sans-serif;
-    color: black;
-
 }
 
 h3{
     font-family: "Poppins", sans-serif;
     font-size: 1.3rem;
-    color: black;
-
 }
 
 button .btn{

@@ -13,7 +13,7 @@ body {
 }
 /* Beginning of Navigation Bar Section */
 
-nav {
+/* nav {
     position: fixed;
     top: 0;
     left: 0;
@@ -345,7 +345,7 @@ nav .navbar .links li:hover .js-sub-menu {
     nav .navbar .nav-links {
         max-width: 100%;
     }
-}
+} */
 
 /* End of Navigation Bar Section */
 
@@ -356,20 +356,15 @@ nav .navbar .links li:hover .js-sub-menu {
 h1{
     font-family: "Poppins", sans-serif;
     font-size: 2.5rem;
-    color: black;
 }
 
 h2{
     font-family: "Poppins", sans-serif;
-    color: black;
-
 }
 
 h3{
     font-family: "Poppins", sans-serif;
     font-size: 1.3rem;
-    color: black;
-
 }
 
 button .btn{

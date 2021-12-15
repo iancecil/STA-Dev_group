@@ -33,6 +33,7 @@ nav .navbar {
     align-items: center;
     justify-content: space-between;
     margin: auto;
+    /* background: red; */
     padding: 0 50px;
 }
 
@@ -76,6 +77,7 @@ nav .navbar .links li a {
 }
 
 nav .navbar .links li .arrow {
+    /* background: red; */
     height: 100%;
     width: 22px;
     line-height: 70px;
@@ -118,6 +120,7 @@ nav .navbar .links li:hover .js-sub-menu {
 }
 
 .navbar .links li .htmlCss-more-sub-menu {
+    /* line-height: 40px; */
 }
 
 .navbar .links li .sub-menu .more-sub-menu {
@@ -227,6 +230,7 @@ nav .navbar .links li:hover .js-sub-menu {
 
 @media (max-width:800px) {
     nav {
+        /* position: relative; */
     }
 
     .navbar .fa-bars {
@@ -312,8 +316,10 @@ nav .navbar .links li:hover .js-sub-menu {
     }
 
     .navbar .links li .sub-menu .more span {
+        /* background: red; */
         display: flex;
         align-items: center;
+        /* justify-content: space-between; */
     }
 
     .links li .sub-menu .more:hover .more-sub-menu {
@@ -347,7 +353,7 @@ nav .navbar .links li:hover .js-sub-menu {
     }
 }
 
-/* End of Navigation Bar Section */
+/* Beginning of Navigation Bar Section */
 
 /* Beginning of Main Section CSS */
 
@@ -356,20 +362,15 @@ nav .navbar .links li:hover .js-sub-menu {
 h1{
     font-family: "Poppins", sans-serif;
     font-size: 2.5rem;
-    color: black;
 }
 
 h2{
     font-family: "Poppins", sans-serif;
-    color: black;
-
 }
 
 h3{
     font-family: "Poppins", sans-serif;
     font-size: 1.3rem;
-    color: black;
-
 }
 
 button .btn{
@@ -399,8 +400,8 @@ p{
 /* End ofGlobal Classes */
 
 
- .site_title{
-    background: url('assets\Images\Strathmore_Background.jpg');
+main .site_title{
+    background: url('assets/Images/Strathmore_Background.jpg');
     background-size: cover;
     height: 110vh;
     display: flex;
