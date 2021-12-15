@@ -445,30 +445,30 @@ main .blog{
     width: 100%;
 }
 
-main .blog .blog_post{
-    padding-top: .73rem;
+main .blog .blog-post{
+    padding-top: 6rem;
 }
 
-main .blog_post .blog_content{
+main .blog-post .blog-content{
     display: flex;
     flex-direction: column;
     text-align: center;
-    width: 27%;
+    width: 80%;
     margin: 3rem 2rem;
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
 }
 
-main .blog_content .blog-title{
+main .blog-content .blog-title{
     padding: 2rem 0;
 }
 
-main .blog_content .btn-blog{
+main .blog-content .btn-blog{
     padding: .7rem 2rem;
     background: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb, 100%);
     margin: .5rem;
 }
 
-main .blog_content span{
+main .blog-content span{
     display: block;
 }
 

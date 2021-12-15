@@ -451,7 +451,7 @@ main .blog .blog_post{
 
 main .blog_post .blog_content{
     display: flex;
-    flex-direction: column;
+    flex-direction: row-reverse;
     text-align: center;
     width: 27%;
     margin: 3rem 2rem;

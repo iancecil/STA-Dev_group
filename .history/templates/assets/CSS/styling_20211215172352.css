@@ -451,9 +451,11 @@ main .blog .blog_post{
 
 main .blog_post .blog_content{
     display: flex;
+    align-items: center;
     flex-direction: column;
     text-align: center;
     width: 27%;
+    column-gap: 40px;
     margin: 3rem 2rem;
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
 }

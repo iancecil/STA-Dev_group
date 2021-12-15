@@ -403,7 +403,8 @@ p{
 
 /* --------------- Site title ---------------- */
 main .site_title{
-   background-color: #8cb6df;
+    background: url(".../assets/Images/School_pic.jpg");
+    background-size: cover;
     height: 110vh;
     display: flex;
     justify-content: center;
@@ -421,18 +422,13 @@ main .site_title h1, h3{
 
 main .site_title .btn{
     margin: 1.8rem;
-    padding: 15px 30px;
-    border-radius: 29px 29px;
-    font-size: 15px;
-    background-color: #1560ab;
-    border: 2px solid #1560ab;
-
+    background: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb, 100%);
 }
 
 main .site_title .btn:hover{
     background: transparent;
-    border: 2px solid #1560ab;
-    color: blue;
+    border: 1px solid #ffffff;
+    color: #ffffff;
 }
 
 /* --------x------ Site title --------x------- */
@@ -440,35 +436,38 @@ main .site_title .btn:hover{
 /* --------------- Blog Carousel ------------ */
 
 main .blog{
-    background-color: rgba(214, 38, 38, 0.616);
-    height: 110vh;
+    background: url('../assets/Abract01.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 100vh;
     width: 100%;
+    background-size: 65%;
 }
 
-main .blog .blog_post{
-    padding-top: .73rem;
+main .blog .blog-post{
+    padding-top: 6rem;
 }
 
-main .blog_post .blog_content{
+main .blog-post .blog-content{
     display: flex;
     flex-direction: column;
     text-align: center;
-    width: 27%;
+    width: 80%;
     margin: 3rem 2rem;
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
 }
 
-main .blog_content .blog-title{
+main .blog-content .blog-title{
     padding: 2rem 0;
 }
 
-main .blog_content .btn-blog{
+main .blog-content .btn-blog{
     padding: .7rem 2rem;
     background: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb, 100%);
     margin: .5rem;
 }
 
-main .blog_content span{
+main .blog-content span{
     display: block;
 }
 
