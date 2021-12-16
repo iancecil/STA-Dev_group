@@ -451,14 +451,14 @@ main .blog{
 }
 
 main .blog .blog_post{
-    padding-top: 6rem;
+    padding-top: .73rem;
 }
 
 main .blog_post .blog_content{
     display: flex;
     flex-direction: column;
     text-align: center;
-    width: 88%;
+    width: 27%;
     margin: 3rem 2rem;
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
 }

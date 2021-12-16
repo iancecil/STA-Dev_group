@@ -28,7 +28,4 @@ jsArrow.onclick = function() {
 
 $(document).ready(function() {
     $('.owl-carousel').owlCarousel();
-
-    // AOS Instance
-    AOS.init();
 });

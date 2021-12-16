@@ -15,20 +15,25 @@ menuCloseBtn.onclick = function() {
 // sidebar submenu open close js code
 let htmlcssArrow = document.querySelector(".htmlcss-arrow");
 htmlcssArrow.onclick = function() {
-    navLinks.classList.toggle("show1");
+ navLinks.classList.toggle("show1");
 }
 let moreArrow = document.querySelector(".more-arrow");
 moreArrow.onclick = function() {
-    navLinks.classList.toggle("show2");
+ navLinks.classList.toggle("show2");
 }
 let jsArrow = document.querySelector(".js-arrow");
 jsArrow.onclick = function() {
-    navLinks.classList.toggle("show3");
+ navLinks.classList.toggle("show3");
 }
 
 $(document).ready(function() {
-    $('.owl-carousel').owlCarousel();
-
-    // AOS Instance
-    AOS.init();
+    $('.owl-carousel').owlCarousel({
+        loop: true,
+        autoplay: false,
+        autoplayTimeout: 3000,
+        dots: false,
+        nav: true,
+        navText: [$('.owl-navigation .owl-nav-prev'), $('.owl-navigation .owl-nav-next')],
+        responsive: responsive
+    });
 });
