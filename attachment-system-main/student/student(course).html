@@ -31,6 +31,7 @@
 
     <!-- All PLUGINS CSS ============================================= -->
     <link rel="stylesheet" type="text/css" href="assets/css/assets.css">
+    <link rel="stylesheet" type="text/css" href="assets/vendors/calendar/fullcalendar.css">
 
 
     <!-- STYLESHEETS ============================================= -->
@@ -71,8 +72,9 @@
                         <a href="#" class="ttr-material-button ttr-submenu-toggle">QUICK MENU <i class="fa fa-angle-down"></i></a>
                         <div class="ttr-header-submenu">
                             <ul>
-                                <li><a href="student(course).html">My Students</a></li>
-                                <li><a href="#">Faculty Supervisors</a></li>
+                                <li><a href="student(course).html">Profile</a></li>
+                                <li><a href="#">My Attachments</a></li>
+                                <li><a href="#">Company Vacancies</a></li>
                                 <li><a href="#">Chats</a></li>
                             </ul>
                         </div>
@@ -90,7 +92,7 @@
                         <a href="#" class="ttr-material-button ttr-submenu-toggle"><i class="fa fa-bell"></i></a>
                         <div class="ttr-header-submenu noti-menu">
                             <div class="ttr-notify-header">
-                                <span class="ttr-notify-text-top">9 New</span>
+                                <span class="ttr-notify-text-top">3 New</span>
                                 <span class="ttr-notify-text">User Notifications</span>
                             </div>
                             <div class="noti-box-list">
@@ -100,7 +102,7 @@
 											<i class="fa fa-check"></i>
 										</span>
                                         <span class="notification-text">
-											<span>Sneha Jogi</span> sent you a message.
+											<span>Aicha Mbongo</span> sent you a message.
                                         </span>
                                         <span class="notification-time">
 											<a href="#" class="fa fa-close"></a>
@@ -108,35 +110,11 @@
                                         </span>
                                     </li>
                                     <li>
-                                        <span class="notification-icon dashbg-yellow">
-											<i class="fa fa-shopping-cart"></i>
-										</span>
-                                        <span class="notification-text">
-											<a href="#">Your order is placed</a> sent you a message.
-										</span>
-                                        <span class="notification-time">
-											<a href="#" class="fa fa-close"></a>
-											<span> 7 Min</span>
-                                        </span>
-                                    </li>
-                                    <li>
-                                        <span class="notification-icon dashbg-red">
-											<i class="fa fa-bullhorn"></i>
-										</span>
-                                        <span class="notification-text">
-											<span>Your item is shipped</span> sent you a message.
-                                        </span>
-                                        <span class="notification-time">
-											<a href="#" class="fa fa-close"></a>
-											<span> 2 May</span>
-                                        </span>
-                                    </li>
-                                    <li>
                                         <span class="notification-icon dashbg-green">
 											<i class="fa fa-comments-o"></i>
 										</span>
                                         <span class="notification-text">
-											<a href="#">Sneha Jogi</a> sent you a message.
+											<a href="#">Faculty Supervisor</a> sent you a message.
 										</span>
                                         <span class="notification-time">
 											<a href="#" class="fa fa-close"></a>
@@ -148,7 +126,7 @@
 											<i class="fa fa-file-word-o"></i>
 										</span>
                                         <span class="notification-text">
-											<span>Sneha Jogi</span> sent you a message.
+											<span>Sir Kidero</span> sent you a message.
                                         </span>
                                         <span class="notification-time">
 											<a href="#" class="fa fa-close"></a>
@@ -237,43 +215,29 @@
                 <ul>
                     <li>
                         <a href="student(course).html" class="ttr-material-button">
-                            <span class="ttr-icon"><i class="ti-book"></i></span>
-                            <span class="ttr-label">Students</span>
+                            <span class="ttr-icon"><i class="ti-dashboard"></i></span>
+                            <span class="ttr-label">Dashboard</span>
                         </a>
                     </li>
                     <li>
                         <a href="host(review).html" class="ttr-material-button">
-                            <span class="ttr-icon"><i class="ti-bookmark-alt"></i></span>
-                            <span class="ttr-label">Host supervisor</span>
+                            <span class="ttr-icon"><i class="ti-user"></i></span>
+                            <span class="ttr-label">Profile</span>
                         </a>
                     </li>
                     <li>
                         <a href="facalty(review).html" class="ttr-material-button">
-                            <span class="ttr-icon"><i class="ti-comments"></i></span>
-                            <span class="ttr-label">Faculty  supervisor</span>
+                            <span class="ttr-icon"><i class="ti-files"></i></span>
+                            <span class="ttr-label">My Attachment</span>
                         </a>
                     </li>
                     <li>
                         <a href="companies(review).html" class="ttr-material-button">
-                            <span class="ttr-icon"><i class="ti-layout-accordion-list"></i></span>
+                            <span class="ttr-icon"><i class="ti-world"></i></span>
                             <span class="ttr-label">Companies vacancies</span>
                         </a>
                     </li>
-                    <li>
-                        <a href="#" class="ttr-material-button">
-                            <span class="ttr-icon"><i class="ti-user"></i></span>
-                            <span class="ttr-label">My Profile</span>
-                            <span class="ttr-arrow-icon"><i class="fa fa-angle-down"></i></span>
-                        </a>
-                        <ul>
-                            <li>
-                                <a href="user-profile.html" class="ttr-material-button"><span class="ttr-label">User Profile</span></a>
-                            </li>
-                            <li>
-                                <a href="teacher-profile.html" class="ttr-material-button"><span class="ttr-label">Teacher Profile</span></a>
-                            </li>
-                        </ul>
-                    </li>
+
                     <li class="ttr-seperate"></li>
                 </ul>
                 <!-- sidebar menu end -->
@@ -287,232 +251,287 @@
     <main class="ttr-wrapper">
         <div class="container-fluid">
             <div class="db-breadcrumb">
-                <h4 class="breadcrumb-title">Students</h4>
+                <h4 class="breadcrumb-title">Dashboard</h4>
                 <ul class="db-breadcrumb-list">
                     <li><a href="#"><i class="fa fa-home"></i>Home</a></li>
-                    <li>Students</li>
+                    <li>Dashboard</li>
                 </ul>
             </div>
+            <!-- Card -->
+            <div class="row">
+                <div class="col-md-6 col-lg-3 col-xl-3 col-sm-6 col-12">
+                    <div class="widget-card widget-bg1">
+                        <div class="wc-item">
+                            <h4 class="wc-title">
+                                Students enrolled 2021
+                            </h4>
+                            <span class="wc-des">
+								All Students
+							</span>
+                            <span class="wc-stats">
+								$<span class="counter">5</span>k
+                            </span>
+                            <div class="progress wc-progress">
+                                <div class="progress-bar" role="progressbar" style="width: 78%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <span class="wc-progress-bx">
+								<span class="wc-change">
+									Change
+								</span>
+                            <span class="wc-number ml-auto">
+									88%
+								</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 col-xl-3 col-sm-6 col-12">
+                    <div class="widget-card widget-bg2">
+                        <div class="wc-item">
+                            <h4 class="wc-title">
+                                New Feedbacks
+                            </h4>
+                            <span class="wc-des">
+								Supervisors Review
+							</span>
+                            <span class="wc-stats counter">
+								12 
+							</span>
+                            <div class="progress wc-progress">
+                                <div class="progress-bar" role="progressbar" style="width: 88%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <span class="wc-progress-bx">
+								<span class="wc-change">
+									Change
+								</span>
+                            <span class="wc-number ml-auto">
+									56%
+								</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 col-xl-3 col-sm-6 col-12">
+                    <div class="widget-card widget-bg3">
+                        <div class="wc-item">
+                            <h4 class="wc-title">
+                                New Company Vacancies
+                            </h4>
+                            <span class="wc-des">
+								Nice places 
+							</span>
+                            <span class="wc-stats counter">
+								3
+							</span>
+                            <div class="progress wc-progress">
+                                <div class="progress-bar" role="progressbar" style="width: 65%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <span class="wc-progress-bx">
+								<span class="wc-change">
+									Change
+								</span>
+                            <span class="wc-number ml-auto">
+									12%
+								</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 col-xl-3 col-sm-6 col-12">
+                    <div class="widget-card widget-bg4">
+                        <div class="wc-item">
+                            <h4 class="wc-title">
+                                Your Classmates
+                            </h4>
+                            <span class="wc-des">
+								Joined lately
+							</span>
+                            <span class="wc-stats counter">
+								21 
+							</span>
+                            <div class="progress wc-progress">
+                                <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <span class="wc-progress-bx">
+								<span class="wc-change">
+									Change
+								</span>
+                            <span class="wc-number ml-auto">
+									45%
+								</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Card END -->
             <div class="row">
                 <!-- Your Profile Views Chart -->
-                <div class="col-lg-12 m-b30">
+                <div class="col-lg-8 m-b30">
                     <div class="widget-box">
                         <div class="wc-title">
-                            <h4>Your Students</h4>
+                            <h4>How Long I view My Portal</h4>
                         </div>
                         <div class="widget-inner">
-                            <div class="card-courses-list admin-courses">
-                                <div class="card-courses-media">
-                                    <img src="assets/images/courses/pic1.jpg" alt="" />
-                                </div>
-                                <div class="card-courses-full-dec">
-                                    <div class="card-courses-title">
-                                        <h4>134669 Iancecil Waweru</h4>
-                                    </div>
-                                    <div class="card-courses-list-bx">
-                                        <ul class="card-courses-view">
-                                            <li class="card-courses-user">
-                                                <div class="card-courses-user-pic">
-                                                    <img src="assets/images/testimonials/pic3.jpg" alt="" />
-                                                </div>
-                                                <div class="card-courses-user-info">
-                                                    <h5>Faculty supervisor</h5>
-                                                    <h4>Emmanuel Olang' </h4>
-                                                </div>
-                                            </li>
-                                            <li class="card-courses-categories">
-                                                <h5> Status</h5>
-                                                <h4>Received</h4>
-                                            </li>
-                                            <li class="card-courses-review">
-                                                <h5> review rate</h5>
-                                                <ul class="cours-star">
-                                                    <li class="active"><i class="fa fa-star"></i></li>
-                                                    <li class="active"><i class="fa fa-star"></i></li>
-                                                    <li class="active"><i class="fa fa-star"></i></li>
-                                                    <li><i class="fa fa-star"></i></li>
-                                                    <li><i class="fa fa-star"></i></li>
-                                                </ul>
-                                            </li>
-                                            <li class="card-courses-stats">
-                                                <a href="#" class="btn button-sm green radius-xl">Pending</a>
-                                            </li>
-
-                                        </ul>
-                                    </div>
-                                    <div class="row card-courses-dec">
-                                        <div class="col-md-12">
-                                            <h6 class="m-b10">SBL/WORK-BASE Description</h6>
-                                            <p>Please write some descriptions</p>
-                                        </div>
-                                        <div class="col-md-12">
-                                            <a href="#" class="btn green radius-xl outline">Approve</a>
-                                            <a href="#" class="btn red outline radius-xl ">Disapprove</a>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                            <div class="card-courses-list admin-courses">
-                                <div class="card-courses-media">
-                                    <img src="assets/images/courses/pic2.jpg" alt="" />
-                                </div>
-                                <div class="card-courses-full-dec">
-                                    <div class="card-courses-title">
-                                        <h4>134669 Iancecil Waweru</h4>
-                                    </div>
-                                    <div class="card-courses-list-bx">
-                                        <ul class="card-courses-view">
-                                            <li class="card-courses-user">
-                                                <div class="card-courses-user-pic">
-                                                    <img src="assets/images/testimonials/pic2.jpg" alt="" />
-                                                </div>
-                                                <div class="card-courses-user-info">
-                                                    <h5>Faculty supervisor</h5>
-                                                    <h4>Emmanuel Olang' </h4>
-                                                </div>
-                                            </li>
-                                            <li class="card-courses-categories">
-                                                <h5> Status</h5>
-                                                <h4>Received</h4>
-                                            </li>
-                                            <li class="card-courses-review">
-                                                <h5> review rate</h5>
-                                                <ul class="cours-star">
-                                                    <li class="active"><i class="fa fa-star"></i></li>
-                                                    <li class="active"><i class="fa fa-star"></i></li>
-                                                    <li class="active"><i class="fa fa-star"></i></li>
-                                                    <li><i class="fa fa-star"></i></li>
-                                                    <li><i class="fa fa-star"></i></li>
-                                                </ul>
-                                            </li>
-                                            <li class="card-courses-stats">
-                                                <a href="#" class="btn button-sm green radius-xl">Pending</a>
-                                            </li>
-
-                                        </ul>
-                                    </div>
-                                    <div class="row card-courses-dec">
-                                        <div class="col-md-12">
-                                            <h6 class="m-b10">SBL/WORK-BASE Description</h6>
-                                            <p>Please write some descriptions</p>
-                                        </div>
-                                        <div class="col-md-12">
-                                            <a href="#" class="btn green radius-xl outline">Approve</a>
-                                            <a href="#" class="btn red outline radius-xl ">Disapprove</a>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                            <div class="card-courses-list admin-courses">
-                                <div class="card-courses-media">
-                                    <img src="assets/images/courses/pic3.jpg" alt="" />
-                                </div>
-                                <div class="card-courses-full-dec">
-                                    <div class="card-courses-title">
-                                        <h4>134669 Iancecil Waweru</h4>
-                                    </div>
-                                    <div class="card-courses-list-bx">
-                                        <ul class="card-courses-view">
-                                            <li class="card-courses-user">
-                                                <div class="card-courses-user-pic">
-                                                    <img src="assets/images/testimonials/pic1.jpg" alt="" />
-                                                </div>
-                                                <div class="card-courses-user-info">
-                                                    <h5>Faculty supervisor</h5>
-                                                    <h4>Emmanuel Olang' </h4>
-                                                </div>
-                                            </li>
-                                            <li class="card-courses-categories">
-                                                <h5> Status</h5>
-                                                <h4>Received</h4>
-                                            </li>
-                                            <li class="card-courses-review">
-                                                <h5> review rate</h5>
-                                                <ul class="cours-star">
-                                                    <li class="active"><i class="fa fa-star"></i></li>
-                                                    <li class="active"><i class="fa fa-star"></i></li>
-                                                    <li class="active"><i class="fa fa-star"></i></li>
-                                                    <li><i class="fa fa-star"></i></li>
-                                                    <li><i class="fa fa-star"></i></li>
-                                                </ul>
-                                            </li>
-                                            <li class="card-courses-stats">
-                                                <a href="#" class="btn button-sm green radius-xl">Pending</a>
-                                            </li>
-
-                                        </ul>
-                                    </div>
-                                    <div class="row card-courses-dec">
-                                        <div class="col-md-12">
-                                            <h6 class="m-b10">SBL/WORK-BASE Description</h6>
-                                            <p>Please write some descriptions</p>
-                                        </div>
-                                        <div class="col-md-12">
-                                            <a href="#" class="btn green radius-xl outline">Approve</a>
-                                            <a href="#" class="btn red outline radius-xl ">Disapprove</a>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                            <div class="card-courses-list admin-courses">
-                                <div class="card-courses-media">
-                                    <img src="assets/images/courses/pic6.jpg" alt="" />
-                                </div>
-                                <div class="card-courses-full-dec">
-                                    <div class="card-courses-title">
-                                        <h4>134669 Iancecil Waweru</h4>
-                                    </div>
-                                    <div class="card-courses-list-bx">
-                                        <ul class="card-courses-view">
-                                            <li class="card-courses-user">
-                                                <div class="card-courses-user-pic">
-                                                    <img src="assets/images/testimonials/pic3.jpg" alt="" />
-                                                </div>
-                                                <div class="card-courses-user-info">
-                                                    <h5>Faculty supervisor</h5>
-                                                    <h4>Emmanuel Olang' </h4>
-                                                </div>
-                                            </li>
-                                            <li class="card-courses-categories">
-                                                <h5> Status</h5>
-                                                <h4>Received</h4>
-                                            </li>
-                                            <li class="card-courses-review">
-                                                <h5> review rate</h5>
-                                                <ul class="cours-star">
-                                                    <li class="active"><i class="fa fa-star"></i></li>
-                                                    <li class="active"><i class="fa fa-star"></i></li>
-                                                    <li class="active"><i class="fa fa-star"></i></li>
-                                                    <li><i class="fa fa-star"></i></li>
-                                                    <li><i class="fa fa-star"></i></li>
-                                                </ul>
-                                            </li>
-                                            <li class="card-courses-stats">
-                                                <a href="#" class="btn button-sm green radius-xl">Pending</a>
-                                            </li>
-
-                                        </ul>
-                                    </div>
-                                    <div class="row card-courses-dec">
-                                        <div class="col-md-12">
-                                            <h6 class="m-b10">SBL/WORK-BASE Description</h6>
-                                            <p>Please write some descriptions</p>
-                                        </div>
-                                        <div class="col-md-12">
-                                            <a href="#" class="btn green radius-xl outline">Approve</a>
-                                            <a href="#" class="btn red outline radius-xl ">Disapprove</a>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
+                            <canvas id="chart" width="100" height="45"></canvas>
                         </div>
                     </div>
                 </div>
                 <!-- Your Profile Views Chart END-->
+                <div class="col-lg-4 m-b30">
+                    <div class="widget-box">
+                        <div class="wc-title">
+                            <h4>Notifications</h4>
+                        </div>
+                        <div class="widget-inner">
+                            <div class="noti-box-list">
+                                <ul>
+                                    <li>
+                                        <span class="notification-icon dashbg-gray">
+											<i class="fa fa-check"></i>
+										</span>
+                                        <span class="notification-text">
+											<span>Aicha Mbongo</span> sent you a message.
+                                        </span>
+                                        <span class="notification-time">
+											<a href="#" class="fa fa-close"></a>
+											<span> 02:14</span>
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span class="notification-icon dashbg-green">
+											<i class="fa fa-comments-o"></i>
+										</span>
+                                        <span class="notification-text">
+											<a href="#">Faculty Supervisor</a> sent you a message.
+										</span>
+                                        <span class="notification-time">
+											<a href="#" class="fa fa-close"></a>
+											<span> 14 July</span>
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span class="notification-icon dashbg-primary">
+											<i class="fa fa-file-word-o"></i>
+										</span>
+                                        <span class="notification-text">
+											<span>Sir Kidero</span> sent you a message.
+                                        </span>
+                                        <span class="notification-time">
+											<a href="#" class="fa fa-close"></a>
+											<span> 15 Min</span>
+                                        </span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 m-b30">
+                    <div class="widget-box">
+                        <div class="wc-title">
+                            <h4>Your Classmates</h4>
+                        </div>
+                        <div class="widget-inner">
+                            <div class="new-user-list">
+                                <ul>
+                                    <li>
+                                        <span class="new-users-pic">
+											<img src="assets/images/testimonials/pic1.jpg" alt=""/>
+										</span>
+                                        <span class="new-users-text">
+											<a href="#" class="new-users-name">Anna Strong </a>
+											<span class="new-users-info">Visual Designer,Google Inc </span>
+                                        </span>
+                                        <span class="new-users-btn">
+											<a href="#" class="btn button-sm outline">Follow</a>
+										</span>
+                                    </li>
+                                    <li>
+                                        <span class="new-users-pic">
+											<img src="assets/images/testimonials/pic2.jpg" alt=""/>
+										</span>
+                                        <span class="new-users-text">
+											<a href="#" class="new-users-name"> Milano Esco </a>
+											<span class="new-users-info">Product Designer, Apple Inc </span>
+                                        </span>
+                                        <span class="new-users-btn">
+											<a href="#" class="btn button-sm outline">Follow</a>
+										</span>
+                                    </li>
+                                    <li>
+                                        <span class="new-users-pic">
+											<img src="assets/images/testimonials/pic1.jpg" alt=""/>
+										</span>
+                                        <span class="new-users-text">
+											<a href="#" class="new-users-name">Nick Bold  </a>
+											<span class="new-users-info">Web Developer, Facebook Inc </span>
+                                        </span>
+                                        <span class="new-users-btn">
+											<a href="#" class="btn button-sm outline">Follow</a>
+										</span>
+                                    </li>
+                                    <li>
+                                        <span class="new-users-pic">
+											<img src="assets/images/testimonials/pic2.jpg" alt=""/>
+										</span>
+                                        <span class="new-users-text">
+											<a href="#" class="new-users-name">Wiltor Delton </a>
+											<span class="new-users-info">Project Manager, Amazon Inc </span>
+                                        </span>
+                                        <span class="new-users-btn">
+											<a href="#" class="btn button-sm outline">Follow</a>
+										</span>
+                                    </li>
+                                    <li>
+                                        <span class="new-users-pic">
+											<img src="assets/images/testimonials/pic3.jpg" alt=""/>
+										</span>
+                                        <span class="new-users-text">
+											<a href="#" class="new-users-name">Nick Stone </a>
+											<span class="new-users-info">Project Manager, Amazon Inc  </span>
+                                        </span>
+                                        <span class="new-users-btn">
+											<a href="#" class="btn button-sm outline">Follow</a>
+										</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 m-b30">
+                    <div class="widget-box">
+                        <div class="wc-title">
+                            <h4>Attachments</h4>
+                        </div>
+                        <div class="widget-inner">
+                            <div class="orders-list">
+                                <ul>
+                                    <li>
+                                        <span class="orders-title">
+											<a href="#" class="orders-title-name">Madaraka Primary School</a>
+											<span class="orders-info">SBL #02357 | Date 13/12/2021</span>
+                                        </span>
+                                        <span class="orders-btn">
+											<a href="#" class="btn button-sm red">Approved</a>
+										</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12 m-b30">
+                    <div class="widget-box">
+                        <div class="wc-title">
+                            <h4>Basic Calendar</h4>
+                        </div>
+                        <div class="widget-inner">
+                            <div id="calendar"></div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </main>
@@ -536,6 +555,73 @@
     <script src="assets/vendors/chart/chart.min.js"></script>
     <script src="assets/js/admin.js"></script>
     <script src='assets/vendors/switcher/switcher.js'></script>
+    <script src='assets/vendors/calendar/moment.min.js'></script>
+    <script src='assets/vendors/calendar/fullcalendar.js'></script>
+    <script>
+        $(document).ready(function() {
+
+            $('#calendar').fullCalendar({
+                header: {
+                    left: 'prev,next today',
+                    center: 'title',
+                    right: 'month,agendaWeek,agendaDay,listWeek'
+                },
+                defaultDate: '2021-12-12',
+                navLinks: true, // can click day/week names to navigate views
+
+                weekNumbers: true,
+                weekNumbersWithinDays: true,
+                weekNumberCalculation: 'ISO',
+
+                editable: true,
+                eventLimit: true, // allow "more" link when too many events
+                events: [{
+                    title: 'All Day Event',
+                    start: '2021-12-01'
+                }, {
+                    title: 'Long Event',
+                    start: '2021-12-07',
+                    end: '2021-12-10'
+                }, {
+                    id: 999,
+                    title: 'Repeating Event',
+                    start: '2021-12-09T16:00:00'
+                }, {
+                    id: 999,
+                    title: 'Repeating Event',
+                    start: '2021-12-16T16:00:00'
+                }, {
+                    title: 'Conference',
+                    start: '2021-12-11',
+                    end: '2021-12-13'
+                }, {
+                    title: 'Meeting',
+                    start: '2021-12-12T10:30:00',
+                    end: '2021-12-12T12:30:00'
+                }, {
+                    title: 'Lunch',
+                    start: '2021-12-12T12:00:00'
+                }, {
+                    title: 'Meeting',
+                    start: '2021-12-12T14:30:00'
+                }, {
+                    title: 'Happy Hour',
+                    start: '2021-12-12T17:30:00'
+                }, {
+                    title: 'Dinner',
+                    start: '2021-12-12T20:00:00'
+                }, {
+                    title: 'Birthday Party',
+                    start: '2021-12-13T07:00:00'
+                }, {
+                    title: 'Click for Google',
+                    url: 'http://google.com/',
+                    start: '2019-03-28'
+                }]
+            });
+
+        });
+    </script>
 </body>
 
 
