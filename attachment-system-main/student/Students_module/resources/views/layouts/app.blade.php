@@ -43,7 +43,7 @@
                         <form id="logout-form" action="{{ route('logout') }}" method="POST" class="hidden">
                             {{ csrf_field() }}
                         </form>
-                        <a class="no-underline hover:underline" href="/dashboard">Dashboard</a> 
+                        <a class="no-underline hover:underline" href="/dashboard">Dashboard</a>
                     @endguest
                 </nav>
             </div>
@@ -61,5 +61,6 @@
         </div>
 
     </div>
+
 </body>
 </html>

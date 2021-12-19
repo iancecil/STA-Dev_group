@@ -208,6 +208,10 @@
             @yield('content')
         </div>
 
+     <div>
+         @paddleJS
+     </div>
+
         <div>
             @include('layouts.live')
         </div>

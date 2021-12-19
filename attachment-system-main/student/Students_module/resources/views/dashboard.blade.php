@@ -38,6 +38,95 @@
     <link rel="stylesheet" type="text/css" href="{{ url('/assets/css/dashboard.css') }}">
     <link class="skin" rel="stylesheet" type="text/css" href="{{ url('/assets/css/color/color-1.css') }}">
 
+
+
+<!-- External JavaScripts -->
+<script src="{{url('js/jquery.min.js') }}"></script>
+<script src="{{url('assets/vendors/bootstrap/js/popper.min.js') }}"></script>
+<script src="{{url('assets/vendors/bootstrap/js/bootstrap.min.js') }}"></script>
+<script src="{{url('assets/vendors/bootstrap-select/bootstrap-select.min.js') }}"></script>
+<script src="{{url('assets/vendors/bootstrap-touchspin/jquery.bootstrap-touchspin.js') }}"></script>
+<script src="{{url('assets/vendors/magnific-popup/magnific-popup.js') }}"></script>
+<script src="{{url('assets/vendors/counter/waypoints-min.js') }}"></script>
+<script src="{{url('assets/vendors/counter/counterup.min.js') }}"></script>
+<script src="{{url('assets/vendors/imagesloaded/imagesloaded.js') }}"></script>
+<script src="{{url('assets/vendors/masonry/masonry.js') }}"></script>
+<script src="{{url('assets/vendors/masonry/filter.js') }}"></script>
+<script src="{{url('assets/vendors/owl-carousel/owl.carousel.js') }}"></script>
+<script src="{{url('assets/vendors/scroll/scrollbar.min.js') }}"></script>
+<script src="{{url('js/functions.js') }}"></script>
+<script src="{{url('assets/vendors/chart/chart.min.js') }}"></script>
+<script src="{{url('js/admin.js') }}"></script>
+<script src="{{url('assets/vendors/switcher/switcher.js')}}"></script>
+<script src="{{url('assets/vendors/calendar/moment.min.js')}}"></script>
+<script src="{{url('assets/vendors/calendar/fullcalendar.js')}}"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+
+        $('#calendar').fullCalendar({
+            header: {
+                left: 'prev,next today',
+                center: 'title',
+                right: 'month,agendaWeek,agendaDay,listWeek'
+            },
+            defaultDate: '2021-12-12',
+            navLinks: true, // can click day/week names to navigate views
+
+            weekNumbers: true,
+            weekNumbersWithinDays: true,
+            weekNumberCalculation: 'ISO',
+
+            editable: true,
+            eventLimit: true, // allow "more" link when too many events
+            events: [{
+                title: 'All Day Event',
+                start: '2021-12-01'
+            }, {
+                title: 'Long Event',
+                start: '2021-12-07',
+                end: '2021-12-10'
+            }, {
+                id: 999,
+                title: 'Repeating Event',
+                start: '2021-12-09T16:00:00'
+            }, {
+                id: 999,
+                title: 'Repeating Event',
+                start: '2021-12-16T16:00:00'
+            }, {
+                title: 'Conference',
+                start: '2021-12-11',
+                end: '2021-12-13'
+            }, {
+                title: 'Meeting',
+                start: '2021-12-12T10:30:00',
+                end: '2021-12-12T12:30:00'
+            }, {
+                title: 'Lunch',
+                start: '2021-12-12T12:00:00'
+            }, {
+                title: 'Meeting',
+                start: '2021-12-12T14:30:00'
+            }, {
+                title: 'Happy Hour',
+                start: '2021-12-12T17:30:00'
+            }, {
+                title: 'Dinner',
+                start: '2021-12-12T20:00:00'
+            }, {
+                title: 'Birthday Party',
+                start: '2021-12-13T07:00:00'
+            }, {
+                title: 'Click for Google',
+                url: 'http://google.com/',
+                start: '2019-03-28'
+            }]
+        });
+
+    });
+</script>
+
+
 </head>
 
 <body class="ttr-opened-sidebar ttr-pinned-sidebar">
@@ -142,7 +231,7 @@
 								Supervisors Review
 							</span>
                             <span class="wc-stats counter">
-								12 
+								12
 							</span>
                             <div class="progress wc-progress">
                                 <div class="progress-bar" role="progressbar" style="width: 88%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
@@ -165,7 +254,7 @@
                                 New Company Vacancies
                             </h4>
                             <span class="wc-des">
-								Nice places 
+								Nice places
 							</span>
                             <span class="wc-stats counter">
 								3
@@ -194,7 +283,7 @@
 								Joined lately
 							</span>
                             <span class="wc-stats counter">
-								21 
+								21
 							</span>
                             <div class="progress wc-progress">
                                 <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
@@ -383,93 +472,8 @@
         </div>
     </main>
     <div class="ttr-overlay"></div>
-    @section('scripts')
-    <!-- External JavaScripts -->
-    <script src="{{asset('assets/js/jquery.min.js') }}"></script>
-    <script src="{{asset('assets/vendors/bootstrap/js/popper.min.js') }}"></script>
-    <script src="{{asset('assets/vendors/bootstrap/js/bootstrap.min.js') }}"></script>
-    <script src="{{asset('assets/vendors/bootstrap-select/bootstrap-select.min.js') }}"></script>
-    <script src="{{asset('assets/vendors/bootstrap-touchspin/jquery.bootstrap-touchspin.js') }}"></script>
-    <script src="{{asset('assets/vendors/magnific-popup/magnific-popup.js') }}"></script>
-    <script src="{{asset('assets/vendors/counter/waypoints-min.js') }}"></script>
-    <script src="{{asset('assets/vendors/counter/counterup.min.js') }}"></script>
-    <script src="{{asset('assets/vendors/imagesloaded/imagesloaded.js') }}"></script>
-    <script src="{{asset('assets/vendors/masonry/masonry.js') }}"></script>
-    <script src="{{asset('assets/vendors/masonry/filter.js') }}"></script>
-    <script src="{{asset('assets/vendors/owl-carousel/owl.carousel.js') }}"></script>
-    <script src="{{asset('assets/vendors/scroll/scrollbar.min.js') }}"></script>
-    <script src="{{asset('assets/js/functions.js') }}"></script>
-    <script src="{{asset('assets/vendors/chart/chart.min.js') }}"></script>
-    <script src="{{asset('assets/js/admin.js') }}"></script>
-    <script src="{{asset('assets/vendors/switcher/switcher.js')}}"></script>
-    <script src="{{asset('assets/vendors/calendar/moment.min.js')}}"></script>
-    <script src="{{asset('assets/vendors/calendar/fullcalendar.js')}}"></script>
-    <script>
-        $(document).ready(function() {
+    @endsection
 
-            $('#calendar').fullCalendar({
-                header: {
-                    left: 'prev,next today',
-                    center: 'title',
-                    right: 'month,agendaWeek,agendaDay,listWeek'
-                },
-                defaultDate: '2021-12-12',
-                navLinks: true, // can click day/week names to navigate views
-
-                weekNumbers: true,
-                weekNumbersWithinDays: true,
-                weekNumberCalculation: 'ISO',
-
-                editable: true,
-                eventLimit: true, // allow "more" link when too many events
-                events: [{
-                    title: 'All Day Event',
-                    start: '2021-12-01'
-                }, {
-                    title: 'Long Event',
-                    start: '2021-12-07',
-                    end: '2021-12-10'
-                }, {
-                    id: 999,
-                    title: 'Repeating Event',
-                    start: '2021-12-09T16:00:00'
-                }, {
-                    id: 999,
-                    title: 'Repeating Event',
-                    start: '2021-12-16T16:00:00'
-                }, {
-                    title: 'Conference',
-                    start: '2021-12-11',
-                    end: '2021-12-13'
-                }, {
-                    title: 'Meeting',
-                    start: '2021-12-12T10:30:00',
-                    end: '2021-12-12T12:30:00'
-                }, {
-                    title: 'Lunch',
-                    start: '2021-12-12T12:00:00'
-                }, {
-                    title: 'Meeting',
-                    start: '2021-12-12T14:30:00'
-                }, {
-                    title: 'Happy Hour',
-                    start: '2021-12-12T17:30:00'
-                }, {
-                    title: 'Dinner',
-                    start: '2021-12-12T20:00:00'
-                }, {
-                    title: 'Birthday Party',
-                    start: '2021-12-13T07:00:00'
-                }, {
-                    title: 'Click for Google',
-                    url: 'http://google.com/',
-                    start: '2019-03-28'
-                }]
-            });
-
-        });
-    </script>
-    @stop
 </body>
 
-@endsection
+
