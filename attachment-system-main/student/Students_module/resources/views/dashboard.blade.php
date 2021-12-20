@@ -41,25 +41,25 @@
 
 
 <!-- External JavaScripts -->
-<script src="{{asset('js/jquery.min.js') }}"></script>
-<script src="{{asset('assets/vendors/bootstrap/js/popper.min.js') }}"></script>
-<script src="{{asset('assets/vendors/bootstrap/js/bootstrap.min.js') }}"></script>
-<script src="{{asset('assets/vendors/bootstrap-select/bootstrap-select.min.js') }}"></script>
-<script src="{{asset('assets/vendors/bootstrap-touchspin/jquery.bootstrap-touchspin.js') }}"></script>
-<script src="{{asset('assets/vendors/magnific-popup/magnific-popup.js') }}"></script>
-<script src="{{asset('assets/vendors/counter/waypoints-min.js') }}"></script>
-<script src="{{asset('assets/vendors/counter/counterup.min.js') }}"></script>
-<script src="{{asset('assets/vendors/imagesloaded/imagesloaded.js') }}"></script>
-<script src="{{asset('assets/vendors/masonry/masonry.js') }}"></script>
-<script src="{{asset('assets/vendors/masonry/filter.js') }}"></script>
-<script src="{{asset('assets/vendors/owl-carousel/owl.carousel.js') }}"></script>
-<script src="{{asset('assets/vendors/scroll/scrollbar.min.js') }}"></script>
-<script src="{{asset('js/functions.js') }}"></script>
-<script src="{{asset('assets/vendors/chart/chart.min.js') }}"></script>
-<script src="{{asset('js/admin.js') }}"></script>
-<script src="{{asset('assets/vendors/switcher/switcher.js')}}"></script>
-<script src="{{asset('assets/vendors/calendar/moment.min.js')}}"></script>
-<script src="{{asset('assets/vendors/calendar/fullcalendar.js')}}"></script>
+<script type='text/javascript' src="{{ URL::asset('js/jquery.min.js') }}"></script>
+<script type='text/javascript' src="{{ URL::asset('assets/vendors/bootstrap/js/popper.min.js') }}"></script>
+<script type='text/javascript' src="{{ URL::asset('assets/vendors/bootstrap/js/bootstrap.min.js') }}"></script>
+<script type='text/javascript' src="{{ URL::asset('assets/vendors/bootstrap-select/bootstrap-select.min.js') }}"></script>
+<script type='text/javascript' src="{{ URL::asset('assets/vendors/bootstrap-touchspin/jquery.bootstrap-touchspin.js') }}"></script>
+<script type='text/javascript' src="{{ URL::asset('assets/vendors/magnific-popup/magnific-popup.js') }}"></script>
+<script type='text/javascript' src="{{ URL::asset('assets/vendors/counter/waypoints-min.js') }}"></script>
+<script type='text/javascript' src="{{ URL::asset('assets/vendors/counter/counterup.min.js') }}"></script>
+<script type='text/javascript' src="{{ URL::asset('assets/vendors/imagesloaded/imagesloaded.js') }}"></script>
+<script type='text/javascript' src="{{ URL::asset('assets/vendors/masonry/masonry.js') }}"></script>
+<script type='text/javascript' src="{{ URL::asset('assets/vendors/masonry/filter.js') }}"></script>
+<script type='text/javascript' src="{{ URL::asset('assets/vendors/owl-carousel/owl.carousel.js') }}"></script>
+<script type='text/javascript' src="{{ URL::asset('assets/vendors/scroll/scrollbar.min.js') }}"></script>
+<script type='text/javascript' src="{{ URL::asset('js/functions.js') }}"></script>
+<script type='text/javascript' src="{{ URL::asset('assets/vendors/chart/chart.min.js') }}"></script>
+<script type='text/javascript' src="{{ URL::asset('js/admin.js') }}"></script>
+<script type='text/javascript' src="{{ URL::asset('assets/vendors/switcher/switcher.js')}}"></script>
+<script type='text/javascript' src="{{ URL::asset('assets/vendors/calendar/moment.min.js')}}"></script>
+<script type='text/javascript' src="{{ URL::asset('assets/vendors/calendar/fullcalendar.js')}}"></script>
 <script type="text/javascript">
     $(document).ready(function() {
 
@@ -472,8 +472,8 @@
         </div>
     </main>
     <div class="ttr-overlay"></div>
-    @endsection
+    
 
 </body>
-
+@endsection
 
