@@ -1,0 +1,34 @@
+{
+    "/js/app.js": "/js/app.js",
+    "/js/admin.js": "/js/admin.js",
+    "/js/jquery.min.js": "/js/jquery.min.js",
+    "/css/app.css": "/css/app.css",
+    "/assets/css/assets.css": "/assets/css/assets.css",
+    "/assets/css/dashboard.css": "/assets/css/dashboard.css",
+    "/assets/css/style.css": "/assets/css/style.css",
+    "/assets/css/typography.css": "/assets/css/typography.css",
+    "/assets/css/color/color-1.css": "/assets/css/color/color-1.css",
+    "/assets/css/shortcodes/accordion.css": "/assets/css/shortcodes/accordion.css",
+    "/assets/css/shortcodes/alert.css": "/assets/css/shortcodes/alert.css",
+    "/assets/css/shortcodes/breadcrumb.css": "/assets/css/shortcodes/breadcrumb.css",
+    "/assets/css/shortcodes/button.css": "/assets/css/shortcodes/button.css",
+    "/assets/css/shortcodes/divider.css": "/assets/css/shortcodes/divider.css",
+    "/assets/css/shortcodes/form.css": "/assets/css/shortcodes/form.css",
+    "/assets/css/shortcodes/icon-box.css": "/assets/css/shortcodes/icon-box.css",
+    "/assets/css/shortcodes/layout.css": "/assets/css/shortcodes/layout.css",
+    "/assets/css/shortcodes/list.css": "/assets/css/shortcodes/list.css",
+    "/assets/css/shortcodes/overlay.css": "/assets/css/shortcodes/overlay.css",
+    "/assets/css/shortcodes/owl.css": "/assets/css/shortcodes/owl.css",
+    "/assets/css/shortcodes/pagination.css": "/assets/css/shortcodes/pagination.css",
+    "/assets/css/shortcodes/pricingtable.css": "/assets/css/shortcodes/pricingtable.css",
+    "/assets/css/shortcodes/separator.css": "/assets/css/shortcodes/separator.css",
+    "/assets/css/shortcodes/shortcodes.css": "/assets/css/shortcodes/shortcodes.css",
+    "/assets/css/shortcodes/widget.css": "/assets/css/shortcodes/widget.css",
+    "/assets/vendors/bootstrap/css/bootstrap.min.css": "/assets/vendors/bootstrap/css/bootstrap.min.css",
+    "/assets/vendors/bootstrap/css/bootstrap.min.js": "/assets/vendors/bootstrap/css/bootstrap.min.js",
+    "/assets/vendors/bootstrap/css/popper.min.js": "/assets/vendors/bootstrap/css/popper.min.js"
+
+
+
+
+}
